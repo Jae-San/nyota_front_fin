@@ -1,0 +1,22 @@
+.auth-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centre horizontalement le logo et la carte */
+  justify-content: center; /* Centre verticalement sur l'écran */
+  min-height: 100vh;
+  background-color: #f8f9fa; /* Couleur de fond légère */
+  padding: 2rem;
+}
+
+.auth-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.auth-container {
+  display: flex;
+  justify-content: center; /* Force la Card à être au milieu */
+  width: 100%;
+}

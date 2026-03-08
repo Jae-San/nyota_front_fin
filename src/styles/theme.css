@@ -1,0 +1,33 @@
+:root {
+  --NYOTA-blue: #2563eb;
+  /* On stocke le dégradé dans une variable pour le réutiliser facilement */
+  --NYOTA-orange-grad: linear-gradient(66.2deg, #FF7A00 0%, #FB9B11 64.58%);
+}
+
+/* ... tes autres styles (gradient-hero, etc.) ... */
+
+/* Style de base du bouton */
+.p-button {
+  background: var(--NYOTA-orange-grad) !important;
+  border: 2px solid transparent !important; /* Pour éviter que le bouton ne bouge au survol */
+  color: white !important;
+  transition: all 0.3s ease !important;
+  font-weight: bold !important;
+}
+
+/* État au survol (Hover) */
+.p-button:hover {
+  /* 1. On rend le fond transparent */
+  background: transparent !important;
+  
+  /* 2. On applique le dégradé uniquement au texte */
+  background-image: var(--NYOTA-orange-grad) !important;
+  -webkit-background-clip: text !important; /* Pour Chrome/Safari */
+  background-clip: text !important;
+  
+  /* 3. On rend la couleur du texte transparente pour laisser voir le dégradé dessous */
+  color: transparent !important;
+
+  /* 4. Optionnel : ajouter une bordure pour que le bouton reste visible */
+  border: 2px solid #FF7A00 !important; 
+}
