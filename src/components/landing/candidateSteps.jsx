@@ -72,7 +72,7 @@ const candidateSteps = [
     title: "Formation et éducation",
     subtitle: "Parlez-nous de votre parcours académique",
     fields: [
-      { name: "education_level", label: "Plus haut niveau d'éducation", type: "select", options: ["Lycée / Baccalauréat", "Licence / Bachelor", "Master", "Doctorat / PhD", "Autre"] },
+      { name: "education_level", label: "Plus haut niveau d'éducation", type: "select", options: ["Pas d'étude", "Lycée / Baccalauréat", "Licence / Bachelor", "Master", "Doctorat / PhD", "Autre"] },
       { name: "school_name", label: "Dernier établissement fréquenté", type: "text", placeholder: "Nom de l'établissement" },
     ],
   },

@@ -132,6 +132,7 @@ const AVAIL_OPTS = [
   { label:"Plus d'un an", value:"Plus d'un an" },
 ];
 const EDUCATION_OPTS = [
+  { label:"Pas d'étude", value:"Rien" },
   { label:"Bac / Lycée", value:"Bac" },
   { label:"Bac +2 / BTS / DUT", value:"Bac+2" },
   { label:"Licence (Bac +3)", value:"Licence" },
